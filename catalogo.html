@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>produtos femininos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        /* ===== HEADER ===== */
+        header {
+            background: linear-gradient(135deg, #5e1b5e 0%, #7b2d7b 100%);
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: #ffffff;
+            letter-spacing: 1px;
+        }
+
+        /* ===== CONTAINER ===== */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* ===== SECTIONS ===== */
+        section {
+            padding: 80px 20px;
+            position: relative;
+        }
+
+        .section-title {
+            font-size: 44px;
+            font-weight: 700;
+            color: #1a1a2e;
+            margin-bottom: 15px;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+        }
+
+        .section-subtitle {
+            font-size: 16px;
+            color: #9b9b9b;
+            text-align: center;
+            margin-bottom: 60px;
+            font-weight: 300;
+            letter-spacing: 0.5px;
+        }
+        h1 {
+            text-align: center;
+            color: #160535;
+        }
+        .produtos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+            align-items: stretch;
+            justify-items: stretch;
+            margin-top: 30px;
+        }
+        .produto {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 100%;
+        }
+        .produto img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+            margin-bottom: 14px;
+        }
+        .produto h2 {
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .produto p {
+            color: #777;
+        }
+        .produto .preco {
+            font-weight: bold;
+            color: #e74c3c;
+            margin: 14px 0;
+        }
+        .btn {
+            display: inline-block;
+            width: 100%;
+            padding: 12px 0;
+            margin-top: 12px;
+            border: none;
+            border-radius: 8px;
+            background: #E91E63;
+            color: #fff;
+            font-weight: 700;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+        .btn:hover {
+            background: #c2185b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">ALVIM</div>
+        </div>
+    </header>
+
+    <section class="produtos-section">
+        <div class="container">
+            <a href="testeduda.html" class="back-btn">← Voltar ao Site</a>
+    <h1>produtos femininos</h1>
+    <div class="produtos-grid">
+        <div class="produto">
+            <img src="https://dlkmodas.fbitsstatic.net/img/p/macaquinho-fitness-feminino-com-amarracao-no-pescoco-verde-basico-dlk-85269/314877.jpg?w=1000&h=1428&v=202603051422" alt="Macaquinho Fitness Verde">
+            <h2>Macaquinho Fitness Verde</h2>
+        <p>Descrição do produto 1. Macaquinho fitness feminino com amarração no pescoço verde básico dlk.</p>
+        <p class="preco">R$ 93,99</p>
+        <button type="button" class="btn add-to-cart" data-id="produto-1" data-name="Macaquinho Fitness Verde" data-price="93.99" data-description="Macaquinho fitness feminino com amarração no pescoço verde básico dlk.">Comprar agora</button>
+    </div>
+    <div class="produto">
+        <img src="https://dlkmodas.fbitsstatic.net/img/p/legging-fitness-feminina-com-bolsos-e-elastico-no-cos-activity-dlk-azul-marinho-85496/315734-4.jpg?w=1000&h=1428&v=202605050952" alt="Legging Fitness Azul Marinho">
+        <h2>Legging Fitness Azul Marinho</h2>
+        <p>Descrição do produto 2. Legging fitness feminina com bolsos e elástico no cós activity dlk azul marinho.</p>
+        <p class="preco">R$ 138,99</p>
+        <button type="button" class="btn add-to-cart" data-id="produto-2" data-name="Legging Fitness Azul Marinho" data-price="138.99" data-description="Legging fitness feminina com bolsos e elástico no cós activity dlk azul marinho.">Comprar agora</button>
+    </div>
+    <div class="produto">
+        <img src="https://luposport.vtexassets.com/arquivos/ids/357970-800-auto?v=639015970175230000&width=800&height=auto&aspect=true" alt="Top Up Control">
+        <h2>Top Up Control</h2>
+        <p>Descrição do produto 3. Top Up Control.</p>
+        <p class="preco">R$ 73,74</p>
+        <button type="button" class="btn add-to-cart" data-id="produto-3" data-name="Top Up Control" data-price="73.74" data-description="Top Up Control.">Comprar agora</button>
+    </div>
+    <div class="produto">
+        <img src="https://luposport.vtexassets.com/arquivos/ids/385040-800-auto?v=639074469920000000&width=800&height=auto&aspect=true" alt="Shorts LSport Basic">
+        <h2>Shorts LSport Basic</h2>
+        <p>Descrição do produto 4. Shorts LSport Basic.</p>
+        <p class="preco">R$ 116,90</p>
+        <button type="button" class="btn add-to-cart" data-id="produto-4" data-name="Shorts LSport Basic" data-price="116.90" data-description="Shorts LSport Basic.">Comprar agora</button>
+    </div>
+    <div class="produto">
+        <img src="https://mindsup.cdn.magazord.com.br/img/2026/03/produto/4106/jaqueta-fondue-canelado-1.jpg?ims=630x949" alt="Jaqueta Movie Fitness Fondue">
+        <h2>Jaqueta Movie Fitness Fondue</h2>
+        <p>Descrição do produto 5. Jaqueta Movie Fitness - Fondue.</p>
+        <p class="preco">R$ 189,00</p>
+        <button type="button" class="btn add-to-cart" data-id="produto-5" data-name="Jaqueta Movie Fitness Fondue" data-price="189.00" data-description="Jaqueta Movie Fitness - Fondue.">Comprar agora</button>
+    </div>
+     <div class="produto">
+        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTrMvFUiXw29yVP8R8oHclzmzAmhVosJ7V6_7GRX4uMtNfhTgkg3eTG2kVySiYx38CDBHq3EADUlOhiFyQ4X7U3za34gqwk5iPTXj4rX8pEMlSqn6Xl0WTz" alt="Camisa Nike Dri-FIT">
+        <h2>Camisa Nike Dri-FIT</h2>
+        <p>Descrição do produto 6. Camisa Nike Dri-FIT Uniformes.</p>
+        <p class="preco">R$ 66,49</p>
+        <button type="button" class="btn add-to-cart" data-id="produto-6" data-name="Camisa Nike Dri-FIT" data-price="66.49" data-description="Camisa Nike Dri-FIT Uniformes.">Comprar agora</button>
+    </div>
+     <div class="produto">
+        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ0lK4nerPBUdAg_6pev01KSlzyMjdN18I9VaNEIVXZZicfEMQVFIvxUdgMTvp1SlNKIstxWSQCNjil3eXgE0MUuWHEpOBMAmpFeRguuf2poxcLI9-YAKa7" alt="Bermuda Running Tecnológico">
+        <h2>Bermuda Running Tecnológica</h2>
+        <p>Descrição do produto 7. Bermuda Running Tecnológico em Microfibra | Masculino | Get Over | Cinza Claro | P.</p>
+        <p class="preco">R$ 89,90</p>
+        <button type="button" class="btn add-to-cart" data-id="produto-7" data-name="Bermuda Running Tecnológica" data-price="89.90" data-description="Bermuda Running Tecnológico em Microfibra | Masculino | Get Over | Cinza Claro | P.">Comprar agora</button>
+   </div>
+     <div class="produto">
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSHlSZqi4vntkxqVgqidggaipZRb-4A3UM5MsxWwzsgrbruiRn1CqxiuZLwEQPQ_BjEDIEtZSkLdfvGb3en9jcqvHhWpgCjWxjhRjtrsp9TTxY2Y5xmfJ7zTTI" alt="Regata Adidas Masculina Treino">
+        <h2>Regata Adidas Masculina</h2>
+        <p>Descrição do produto 8. Regata Adidas Masculina Treino.</p>
+        <p class="preco">R$ 129,90</p>
+        <button type="button" class="btn add-to-cart" data-id="produto-8" data-name="Regata Adidas Masculina" data-price="129.90" data-description="Regata Adidas Masculina Treino.">Comprar agora</button>
+   </div>
+     <div class="produto">
+        <img src="https://static.netshoes.com.br/produtos/kit-bermudacamiseta-new-fluid-dry-academia-alpha-co/06/MV4-0049-006/MV4-0049-006_zoom1.jpg?ts=1777504997&ims=1088x" alt="Kit Bermuda + Camiseta New Fluid Dry Academia Alpha Co">
+        <h2>Kit Bermuda + Camiseta</h2>
+        <p>Descrição do produto 9. Kit Bermuda + Camiseta New Fluid Dry Academia Alpha Co.</p>
+        <p class="preco">R$ 199,90</p>
+        <button type="button" class="btn add-to-cart" data-id="produto-9" data-name="Kit Bermuda + Camiseta" data-price="199.90" data-description="Kit Bermuda + Camiseta New Fluid Dry Academia Alpha Co.">Comprar agora</button>
+   </div>
+     <div class="produto">
+        <img src="https://imgnike-a.akamaihd.net/360x360/02946054A2.jpg" alt="Tênis Nike Team Hustle Academy Masculino">
+        <h2>Tênis Nike Team Hustle</h2>
+        <p>Descrição do produto 10. Tênis Nike Team Hustle Academy Masculino.</p>
+        <p class="preco">R$ 455,99</p>
+        <button type="button" class="btn add-to-cart" data-id="produto-10" data-name="Tênis Nike Team Hustle" data-price="455.99" data-description="Tênis Nike Team Hustle Academy Masculino.">Comprar agora</button>
+   </div>
+     <div class="produto">
+        <img src="https://imgnike-a.akamaihd.net/360x360/094798IDA5.jpg" alt="Tênis Jordan Luka 77 Masculino">
+        <h2>Tênis Jordan Luka 77</h2>
+        <p>Descrição do produto 11. Tênis Jordan Luka 77 Masculino.</p>
+        <p class="preco">R$ 845,49</p>
+        <button type="button" class="btn add-to-cart" data-id="produto-11" data-name="Tênis Jordan Luka 77" data-price="845.49" data-description="Tênis Jordan Luka 77 Masculino.">Comprar agora</button>
+  </div>
+     <div class="produto">
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQLxN36VIpUwYcamPpfsJroq3-M3A3stfaEsE7utSz8zeXFtx7D1RD9l9tDR3A-z4YS2O1ZgBgIojntMGCrpP-xsAHgAbZYvauF1_ZEi--R_pSxw1qL0JQqXA" alt="Tênis Olympikus Corre Max 42 Branco">
+        <h2>Tênis Olympikus Corre Max</h2>
+        <p>Descrição do produto 12. Tênis Olympikus Corre Max 42 Branco.</p>
+        <p class="preco">R$ 549,99</p>
+        <button type="button" class="btn add-to-cart" data-id="produto-12" data-name="Tênis Olympikus Corre Max" data-price="549.99" data-description="Tênis Olympikus Corre Max 42 Branco.">Comprar agora</button>
+ </div>
+     <div class="produto">
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQK7w2ir6wwwXmGsRF_1zvI1NUsDWwCNu_XbHORn6yTTt9cBJ7kifft6LcHBLfJgNkr3a03zC1fk0kccbIIv8x8lNttxZSq" alt="Tênis Adidas Feminino Runfalcon 5">
+        <h2>Tênis Adidas Runfalcon 5</h2>
+        <p>Descrição do produto 13. Tênis Adidas Feminino Runfalcon 5.</p>
+        <p class="preco">R$ 399,99</p>
+        <button type="button" class="btn add-to-cart" data-id="produto-13" data-name="Tênis Adidas Runfalcon 5" data-price="399.99" data-description="Tênis Adidas Feminino Runfalcon 5.">Comprar agora</button>
+    </div>
+        </div>
+    </section>
+    <script src="cart.js"></script>
+</body>
+</html>

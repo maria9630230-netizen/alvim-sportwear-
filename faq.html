@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central de Ajuda - ALVIM Sportwear</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #2a2a2a;
+            line-height: 1.6;
+            background-color: #fafafa;
+        }
+
+        /* ===== HEADER ===== */
+        header {
+            background: linear-gradient(135deg, #5e1b5e 0%, #7b2d7b 100%);
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: #ffffff;
+            letter-spacing: 1px;
+        }
+
+        /* ===== CONTAINER ===== */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* ===== SECTIONS ===== */
+        section {
+            padding: 80px 20px;
+            position: relative;
+        }
+
+        .section-title {
+            font-size: 44px;
+            font-weight: 700;
+            color: #1a1a2e;
+            margin-bottom: 15px;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+        }
+
+        .section-subtitle {
+            font-size: 16px;
+            color: #9b9b9b;
+            text-align: center;
+            margin-bottom: 60px;
+            font-weight: 300;
+            letter-spacing: 0.5px;
+        }
+
+        /* ===== FAQ SECTION ===== */
+        .faq-section {
+            background: radial-gradient(circle at top center, rgba(233, 30, 99, 0.07), transparent 32%), #ffffff;
+            padding: 60px 0;
+            border-top: 4px solid #E91E63;
+        }
+
+        .faq-section .section-title {
+            color: #5e1b5e;
+        }
+
+        .faq-section .section-subtitle {
+            color: #7b2d7b;
+            margin-bottom: 40px;
+        }
+
+        .faq-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(220px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+            align-items: start;
+            justify-items: stretch;
+        }
+
+        .faq-item {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            background: #ffffff;
+            padding: 22px 24px;
+            border-radius: 16px;
+            border: 1px solid #f0d6e5;
+            box-shadow: 0 10px 25px rgba(233, 30, 99, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .faq-item:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 16px 35px rgba(233, 30, 99, 0.14);
+        }
+
+        .faq-item h3 {
+            font-size: 18px;
+            margin-bottom: 12px;
+            color: #2a2a2a;
+        }
+
+        .faq-item p {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.75;
+            margin: 0 0 10px;
+        }
+
+        .faq-item p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* ===== BACK BUTTON ===== */
+        .back-btn {
+            display: inline-block;
+            background: #E91E63;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 500;
+            margin-bottom: 40px;
+            transition: background 0.3s ease;
+        }
+
+        .back-btn:hover {
+            background: #c2185b;
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 900px) {
+            .faq-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">ALVIM</div>
+        </div>
+    </header>
+
+    <section class="faq-section">
+        <div class="container">
+            <a href="testeduda.html" class="back-btn">← Voltar ao Site</a>
+            <h2 class="section-title">Central de Ajuda</h2>
+            <p class="section-subtitle">Respostas rápidas sobre pagamentos, devoluções e envio em um único lugar</p>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>Formas de pagamento</h3>
+                    <p>Aceitamos cartões de crédito (Visa, Mastercard, Elo, American Express) com parcelamento em até 10x, além de PIX com 5% de desconto e boleto bancário à vista.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Segurança do site</h3>
+                    <p>Sim! Utilizamos certificados de segurança SSL e criptografia de ponta a ponta para garantir que seus dados pessoais e de pagamento estejam totalmente protegidos.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Solicitação de devolução</h3>
+                    <p>Envie um e-mail para suporte@seusite.com.br ou chame no WhatsApp informando o número do pedido e o motivo da troca/devolução.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Prazo para devolução</h3>
+                    <p>Você tem até 7 dias corridos após o recebimento para desistir da compra ou solicitar a troca.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Envio do produto</h3>
+                    <p>Enviaremos um código de logística reversa. Basta levar o produto até a agência dos Correios mais próxima. O item deve estar na embalagem original e sem sinais de uso.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Análise da devolução</h3>
+                    <p>Assim que recebermos o produto, faremos uma análise técnica em até 5 dias úteis.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Resolução da devolução</h3>
+                    <p>Após a aprovação, você poderá escolher entre receber um vale-compras no valor pago, trocar por outro item disponível no estoque ou receber o estorno total do valor conforme o método de pagamento original.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Prazo de entrega</h3>
+                    <p>O prazo de entrega varia de acordo com o seu CEP e a modalidade de envio escolhida (ex: Sedex ou PAC). Ele é calculado automaticamente no seu carrinho de compras.</p>
+                    <p><strong>Fatores que influenciam:</strong> o prazo começa a contar a partir da aprovação do pagamento. Fatores externos como chuvas fortes, greves dos Correios ou grande volume de encomendas (como na Black Friday) podem causar variações pontuais.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Rastreamento do pedido</h3>
+                    <p>Assim que o seu pedido for despachado, você receberá um e-mail automático com o seu código de rastreamento.</p>
+                    <p>Você pode clicar no link enviado por e-mail ou acessar a página [Inserir Link para Página de Rastreio] e digitar o código para ver onde sua encomenda está agora.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Pedido atrasado</h3>
+                    <p>Sentimos muito por isso! Se o seu pedido ultrapassou o prazo estimado, entre em contato imediatamente com o nosso suporte para que possamos verificar junto à transportadora.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
